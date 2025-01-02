@@ -19,6 +19,6 @@ define('VNX_PLUGIN_ELEMENT_DIR', plugin_dir_path(__FILE__));
 define('VNX_PLUGIN_ELEMENT_URL', plugin_dir_url(__FILE__));
 
 // Tải file chính
-require_once VNX_PLUGIN_DIR . 'includes/class-init.php';
+require_once VNX_PLUGIN_ELEMENT_DIR . 'includes/class-init.php';
 // Khởi tạo plugin
 new Class_Init;
